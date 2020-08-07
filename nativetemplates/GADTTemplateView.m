@@ -64,7 +64,7 @@ static NSString* const GADTBlue = @"#5C84F0";
   if (self = [super initWithFrame:frame]) {
 
 
-    _rootView = [NSBundle.mainBundle loadNibNamed:NSStringFromClass([self class])
+    _rootView = [[NSBundle bundleForClass:[self class]] loadNibNamed:NSStringFromClass([self class])
                                             owner:self
                                           options:nil]
                     .firstObject;
