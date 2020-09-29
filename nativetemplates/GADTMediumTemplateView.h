@@ -20,4 +20,6 @@
 /// bottom and a horizontal image in the middle.
 @interface GADTMediumTemplateView : GADTTemplateView
 
+@property(weak) IBOutlet NSLayoutConstraint* mediaViewAspectRatio;
+
 @end

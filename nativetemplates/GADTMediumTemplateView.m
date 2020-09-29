@@ -27,4 +27,16 @@
   return @"medium_template";
 }
 
+- (void)setNativeAd:(GADUnifiedNativeAd*)nativeAd {
+  [super setNativeAd:nativeAd];
+
+  GADMediaView* mediaView = self.mediaView;
+
+  NSLayoutConstraint* newMediaViewAspectRatio = [mediaView.widthAnchor constraintEqualToAnchor:mediaView.heightAnchor multiplier:nativeAd.mediaContent.aspectRatio];
+  [mediaView addConstraint:newMediaViewAspectRatio];
+
+  [mediaView removeConstraint:self.mediaViewAspectRatio];
+  self.mediaViewAspectRatio = newMediaViewAspectRatio;
+}
+
 @end
