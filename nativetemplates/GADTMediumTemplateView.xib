@@ -142,9 +142,9 @@
                 </view>
                 <view clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="0.0" placeholderIntrinsicHeight="0.0" translatesAutoresizingMaskIntoConstraints="NO" id="1ne-Xk-CBH" customClass="GADMediaView">
                     <rect key="frame" x="0.0" y="0.0" width="355" height="199.66666666666666"/>
-                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="backgroundColor" white="0.10000000000000001" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
-                        <constraint firstAttribute="width" secondItem="1ne-Xk-CBH" secondAttribute="height" multiplier="16:9" id="pdf-Py-uZe"/>
+                        <constraint firstAttribute="width" secondItem="1ne-Xk-CBH" secondAttribute="height" multiplier="16:9" priority="999" id="pdf-Py-uZe"/>
                     </constraints>
                 </view>
             </subviews>

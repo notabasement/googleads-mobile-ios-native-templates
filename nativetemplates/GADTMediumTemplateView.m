@@ -32,7 +32,8 @@
 
   GADMediaView* mediaView = self.mediaView;
 
-  NSLayoutConstraint* newMediaViewAspectRatio = [mediaView.widthAnchor constraintEqualToAnchor:mediaView.heightAnchor multiplier:nativeAd.mediaContent.aspectRatio];
+  NSLayoutConstraint* newMediaViewAspectRatio = [mediaView.widthAnchor constraintEqualToAnchor:mediaView.heightAnchor multiplier:nativeAd.mediaContent.aspectRatio ];
+  newMediaViewAspectRatio.priority = self.mediaViewAspectRatio.priority;
   [mediaView addConstraint:newMediaViewAspectRatio];
 
   [mediaView removeConstraint:self.mediaViewAspectRatio];
