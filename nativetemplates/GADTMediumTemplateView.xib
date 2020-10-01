@@ -153,16 +153,16 @@
                 <accessibilityTraits key="traits" notEnabled="YES"/>
             </accessibility>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="qZf-ej-Zxg" secondAttribute="trailing" constant="10" id="1Rv-ij-HDB"/>
+                <constraint firstAttribute="trailing" secondItem="qZf-ej-Zxg" secondAttribute="trailing" priority="999" constant="10" id="1Rv-ij-HDB"/>
                 <constraint firstItem="qZf-ej-Zxg" firstAttribute="leading" secondItem="h2X-7h-r2O" secondAttribute="leading" constant="10" id="OCX-hu-Rvd"/>
                 <constraint firstItem="qZf-ej-Zxg" firstAttribute="top" secondItem="1ne-Xk-CBH" secondAttribute="bottom" id="aHY-Ht-nDt"/>
                 <constraint firstItem="1ne-Xk-CBH" firstAttribute="leading" secondItem="h2X-7h-r2O" secondAttribute="leading" id="cj9-Mw-8MR"/>
                 <constraint firstAttribute="trailing" secondItem="1ne-Xk-CBH" secondAttribute="trailing" id="gLW-Sf-wcR"/>
                 <constraint firstItem="1ne-Xk-CBH" firstAttribute="top" secondItem="h2X-7h-r2O" secondAttribute="top" id="ipR-Fl-Mie"/>
-                <constraint firstAttribute="bottom" secondItem="qZf-ej-Zxg" secondAttribute="bottom" constant="10" id="sWi-Jm-MXA"/>
+                <constraint firstAttribute="bottom" secondItem="qZf-ej-Zxg" secondAttribute="bottom" priority="999" constant="10" id="sWi-Jm-MXA"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="-68.840579710144937" y="794.83695652173924"/>
+            <point key="canvasLocation" x="-124" y="683"/>
         </view>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
     </objects>
