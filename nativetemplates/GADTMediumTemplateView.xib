@@ -144,7 +144,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="355" height="199.66666666666666"/>
                     <color key="backgroundColor" white="0.10000000000000001" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
-                        <constraint firstAttribute="width" secondItem="1ne-Xk-CBH" secondAttribute="height" multiplier="16:9" priority="999" id="pdf-Py-uZe"/>
+                        <constraint firstAttribute="width" secondItem="1ne-Xk-CBH" secondAttribute="height" multiplier="16:9" priority="998" id="pdf-Py-uZe"/>
                     </constraints>
                 </view>
             </subviews>
@@ -162,7 +162,7 @@
                 <constraint firstAttribute="bottom" secondItem="qZf-ej-Zxg" secondAttribute="bottom" priority="999" constant="10" id="sWi-Jm-MXA"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="-124" y="683"/>
+            <point key="canvasLocation" x="-125.36231884057972" y="682.33695652173924"/>
         </view>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
     </objects>
