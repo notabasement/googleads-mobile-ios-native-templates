@@ -27,7 +27,7 @@
   return @"medium_template";
 }
 
-- (void)setNativeAd:(GADUnifiedNativeAd*)nativeAd {
+- (void)setNativeAd:(GADNativeAd*)nativeAd {
   [super setNativeAd:nativeAd];
 
   GADMediaView* mediaView = self.mediaView;
